@@ -67,7 +67,7 @@ function Banner() {
                 // onClick={() => window.open("../public/CV-ErikaPIERRE.pdf")}
                 id="cv"
               >
-                <a href="../public/CV-ErikaPIERRE.pdf" download>
+                <a href="/CV-ErikaPIERRE.pdf" download>
                   Téléchargez mon CV <FaAngleRight />
                 </a>
               </button>
