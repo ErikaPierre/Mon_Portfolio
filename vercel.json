@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/CV-ErikaPIERRE.pdf",
-      "dest": "/public/CV-ErikaPIERRE.pdf"
+      "dest": "/CV-ErikaPIERRE.pdf"
     }
   ]
 }
