@@ -50,8 +50,10 @@ function Profil() {
                   </li>
                 </ul>
                 <p>
-                  <strong>&#128680; Je suis ouverte pour Préparation Opérationnelle à
-                  l'Emploi Individuelle (POEI).</strong>
+                  <strong>
+                    &#128680; Je suis ouverte pour Préparation Opérationnelle à
+                    l'Emploi Individuelle (POEI).
+                  </strong>
                 </p>
               </p>
               <p>

@@ -74,7 +74,7 @@ function NavBar() {
             >
               Projets
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="#contact"
               className={
                 activeLink === "contact" ? "active navbar-link" : "navbar-link"
@@ -82,19 +82,20 @@ function NavBar() {
               onClick={() => onUpdatedActiveLink("contact")}
             >
               Contact
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://github.com/ErikaPierre?tab=repositories">
-                <img src="src/assets/github_logo.png" alt="GitHub logo" />
+                <img src="../assets/github_logo.png" alt="GitHub logo" />
               </a>
               <a href="https://www.linkedin.com/in/erika-pierre-676b57136/">
-                <img src="src/assets/linkedin.png" alt="LinkedIn logo" />
+                <img src="../assets/linkedin.png" alt="LinkedIn logo" />
               </a>
             </div>
             <button
               className="#"
+              href="#contact"
               id="contact"
               onClick={() => console.log("contacté")}
             >

@@ -1,14 +1,13 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { FaAngleRight } from "react-icons/fa";
-import headerImg from "../assets/Bricks_AF1.png";
+import headerImg from "/assets/Bricks_AF1.png";
 
 function Banner() {
   const [message, setMessage] = useState("");
   const [loop, setLoop] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [delta, setDelta] = useState(200);
-  const [index, setIndex] = useState(1);
   const toRotate = ["Erika PIERRE", "une développeuse Web"];
   const period = 1000;
 
