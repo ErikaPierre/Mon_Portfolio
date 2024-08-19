@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "src/assets/logo.png";
+import logo from "../assets/logo.png";
 import linkedIn from "../assets/linkedin.png";
 import github from "../assets/github.png";
 
