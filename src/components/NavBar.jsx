@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import linkedIn from "../assets/linkedin.png";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
@@ -29,7 +30,7 @@ function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src="public/logo.png" alt="Logo" />
+          <img src="src/assets/logo.png" alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"> </span>
@@ -78,10 +79,10 @@ function NavBar() {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://github.com/ErikaPierre?tab=repositories">
-                <img src="public/github_logo.png" alt="GitHub logo" />
+                <img src="src/assets/github_logo.png" alt="GitHub logo" />
               </a>
               <a href="https://www.linkedin.com/in/erika-pierre-676b57136/">
-                <img src="public/linkedin.png" alt="LinkedIn logo" />
+                <img src={linkedIn} alt="LinkedIn logo" />
               </a>
             </div>
             <button

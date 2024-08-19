@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { FaAngleRight } from "react-icons/fa";
-import headerImg from "/assets/Bricks_AF1.png";
+import headerImg from "../assets/bricks_AF1.png";
 
 function Banner() {
   const [message, setMessage] = useState("");
