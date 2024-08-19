@@ -64,7 +64,7 @@ function Banner() {
                 projet sur lequel je travaille.
               </p>
               <button
-                onClick={() => window.open("src/files/CV_Erika_PIERRE.pdf")}
+                onClick={() => window.open("public/files/CV_Erika_PIERRE.pdf")}
                 id="cv"
               >
                 Téléchargez mon CV <FaAngleRight />
