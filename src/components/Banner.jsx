@@ -64,10 +64,12 @@ function Banner() {
                 projet sur lequel je travaille.
               </p>
               <button
-                onClick={() => window.open("../public/CV-ErikaPIERRE.pdf")}
+                // onClick={() => window.open("../public/CV-ErikaPIERRE.pdf")}
                 id="cv"
               >
-                Téléchargez mon CV <FaAngleRight />
+                <a href="../public/CV-ErikaPIERRE.pdf" download>
+                  Téléchargez mon CV <FaAngleRight />
+                </a>
               </button>
             </Col>
             <Col className="banner-img" xs={12} md={6} xl={5}>
