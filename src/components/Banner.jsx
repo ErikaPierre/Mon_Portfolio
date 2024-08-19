@@ -7,7 +7,7 @@ function Banner() {
   const [loop, setLoop] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [delta, setDelta] = useState(200);
-  const toRotate = ["Erika PIERRE", "une développeuse Web"];
+  const toRotate = ["Erika PIERRE", "développeuse Web"];
   const period = 1000;
 
   useEffect(() => {
@@ -57,16 +57,20 @@ function Banner() {
                 {`Je suis `}
                 <span className="wrap">{message}</span>
               </h1>
-              <p>
-                Si j’avais pu être une méthode JavaScript, je serais .map() car
-                j'apporte toujours une nouvelle perspective et améliore chaque
-                projet sur lequel je travaille.
-              </p>
-              <button id="cv">
-                <a href="/CV-ErikaPIERRE.pdf" download>
-                  Téléchargez mon CV
-                </a>
-              </button>
+              <div className="banner-text">
+                <p>
+                  Si j’avais pu être une méthode JavaScript, je serais .map()
+                  car j'apporte toujours une nouvelle perspective et améliore
+                  chaque projet sur lequel je travaille.
+                </p>
+              </div>
+              <div className="banner-btn">
+                <button id="cv">
+                  <a href="/CV-ErikaPIERRE.pdf" download>
+                    Téléchargez mon CV
+                  </a>
+                </button>
+              </div>
             </Col>
             <Col className="banner-img" xs={12} md={6} xl={5}>
               <img src={headerImg} alt="Header image" />

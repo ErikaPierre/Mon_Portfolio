@@ -25,7 +25,7 @@ function Parcours() {
             </em>{" "}
             MongoDB, Express, ReactJs, NodeJs{" "}
           </p>
-          <div>
+          <div className="cours">
             <span>Programme : </span>
             <br />
             <span>
