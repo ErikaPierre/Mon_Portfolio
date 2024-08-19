@@ -28,6 +28,14 @@ function NavBar() {
     setActiveLink(value);
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+      onUpdatedActiveLink("contact");
+    }
+  };
+
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
@@ -87,11 +95,7 @@ function NavBar() {
                 <img src={linkedIn} alt="LinkedIn logo" />
               </a>
             </div>
-            <button
-              className="#"
-              id="contact"
-              onClick={() => console.log("contacté")}
-            >
+            <button className="contact-button" onClick={scrollToContact}>
               <span className="">Contactez-moi</span>
             </button>
           </span>

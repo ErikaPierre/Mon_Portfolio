@@ -1,6 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import { FaAngleRight } from "react-icons/fa";
 import headerImg from "../assets/bricks.png";
 
 function Banner() {
@@ -63,12 +62,9 @@ function Banner() {
                 j'apporte toujours une nouvelle perspective et améliore chaque
                 projet sur lequel je travaille.
               </p>
-              <button
-                // onClick={() => window.open("../public/CV-ErikaPIERRE.pdf")}
-                id="cv"
-              >
+              <button id="cv">
                 <a href="/CV-ErikaPIERRE.pdf" download>
-                  Téléchargez mon CV <FaAngleRight />
+                  Téléchargez mon CV
                 </a>
               </button>
             </Col>

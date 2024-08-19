@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
+import memoji from "../assets/memoji.jpeg"
 
 function Profil() {
   return (
@@ -9,7 +10,7 @@ function Profil() {
             <h2>{`<A_Propos/>`}</h2>
             <Col xs={12} md={6} xl={5}>
               <img
-                src={"src/assets/memoji.jpeg"}
+                src={memoji}
                 alt="Avatar of Erika PIERRE"
                 className="profile-img"
               />
