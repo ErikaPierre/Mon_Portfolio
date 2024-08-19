@@ -325,7 +325,7 @@ color: inherit;
 }
 
 .profile-img:hover {
-  content: url("src/assets/pdp.JPG");
+  content: url("../assets/pdp.JPG");
 }
 
 /************ Skills Css ************/

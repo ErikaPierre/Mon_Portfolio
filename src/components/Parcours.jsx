@@ -25,6 +25,44 @@ function Parcours() {
             </em>{" "}
             MongoDB, Express, ReactJs, NodeJs{" "}
           </p>
+          <div>
+            <span>Programme : </span>
+            <br />
+            <span>
+              {" "}
+              1 - Développer la partie front-end d'une application web ou web
+              mobile sécurisée :{" "}
+            </span>
+            <ul>
+              <li>
+                Installer et configurer son environnement de travail en fonction
+                du projet web ou web mobile
+              </li>
+              <li>Maquetter des interfaces utilisateur web ou web mobile</li>
+              <li>
+                Réaliser des interfaces utilisateur statiques web ou web mobile
+              </li>
+              <li>
+                Développer la partie dynamique des interfaces utilisateur web ou
+                web mobile
+              </li>
+            </ul>
+            <span>
+              2 - Développer la partie back-end d'une application web ou web
+              mobile sécurisée
+            </span>{" "}
+            <ul>
+              <li>Mettre en place une base de données relationnelle</li>
+              <li>
+                Développer des composants d'accès aux données SQL et NoSQL
+              </li>
+              <li>Développer des composants métier coté serveur</li>
+              <li>
+                Documenter le déploiement d'une application dynamique web ou web
+                mobile
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="school-timeline-item" ref={ref2}>
@@ -38,6 +76,18 @@ function Parcours() {
             </em>{" "}
             Anglais intermédiaire
           </p>
+          <div>
+            <span>Programme :</span>
+            <ul>
+              <li>Conversation</li>
+              <li>Structure langagière</li>
+              <li>Compréhension écrite et orale</li>
+              <li>Prononciation</li>
+              <li>Mise en situation</li>
+              <li>Lecture sur la Culture du pays</li>
+              <li>Toeic : B2</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="school-timeline-item" ref={ref3}>
@@ -51,6 +101,23 @@ function Parcours() {
             </em>{" "}
             Analyse de données
           </p>
+          <div>
+            <span>Programme : </span>
+            <ul>
+              <li>Web Analytics</li>
+              <li>Stratégie Data</li>
+              <li>Création & Design</li>
+              <li>Communication Digitale</li>
+              <li>HTML & CSS</li>
+              <li>Analyse de données avec Python et SQL</li>
+              <li>Référencement Web & Mobile (SEO)</li>
+              <li>Frameworks, Bootstrap & jQuery</li>
+              <li>Visualisation des données</li>
+              <li>Growth Hacking</li>
+              <li>Machine Learning</li>
+              <li>RGPD & protection des données</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="school-timeline-item" ref={ref4}>
@@ -64,6 +131,18 @@ function Parcours() {
             </em>{" "}
             Finance et management des entreprisess{" "}
           </p>
+          <div>
+            <span>Programme</span>
+            <li>Gestion financière avancée</li>
+            <li>Veille et tendances économiques mondiales</li>
+            <li>Relations industrielles</li>
+            <li>Stratégie de marketing</li>
+            <li>Traitement et analyse de données avec Excel</li>
+            <li>Économie internationale</li>
+            <li>Gestion de projet</li>
+            <li>Aspect humain des organisations</li>
+            <li>Management stratégique</li>
+          </div>
         </div>
       </div>
       <div className="school-timeline-item" ref={ref5}>
@@ -77,6 +156,32 @@ function Parcours() {
             </em>{" "}
             Gestion des Entreprises et des Administrations
           </p>
+          <div>
+            <span>Programme : </span>
+            <ul>
+              <li>Aide à la décision managériale</li>
+              <li>
+                Aide au processus de l’organisation dans son environnement
+              </li>
+              <li>Identification et évaluation des critères de performance</li>
+              <li>
+                Construction des procédures juridiques, fiscales et comptables
+              </li>
+              <li>Identifier et de mesurer la création de valeur</li>
+              <li>
+                Piloter la gestion des Ressources humaines au sein des
+                organisations
+              </li>
+              <li>
+                Appréhender la gestion de projet et la démarche entrepreneuriale
+              </li>
+              <li>
+                Contribuer à la mise en place d’un système d’information
+                efficace
+              </li>
+              <li>Construire une analyse critique</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
