@@ -29,7 +29,7 @@ function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src="src/assets/logo.png" alt="Logo" />
+          <img src="public/logo.png" alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"> </span>
@@ -74,28 +74,18 @@ function NavBar() {
             >
               Projets
             </Nav.Link>
-            {/* <Nav.Link
-              href="#contact"
-              className={
-                activeLink === "contact" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdatedActiveLink("contact")}
-            >
-              Contact
-            </Nav.Link> */}
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://github.com/ErikaPierre?tab=repositories">
-                <img src="../assets/github_logo.png" alt="GitHub logo" />
+                <img src="public/github_logo.png" alt="GitHub logo" />
               </a>
               <a href="https://www.linkedin.com/in/erika-pierre-676b57136/">
-                <img src="../assets/linkedin.png" alt="LinkedIn logo" />
+                <img src="public/linkedin.png" alt="LinkedIn logo" />
               </a>
             </div>
             <button
               className="#"
-              href="#contact"
               id="contact"
               onClick={() => console.log("contacté")}
             >
