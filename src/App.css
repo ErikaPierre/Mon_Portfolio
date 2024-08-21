@@ -314,18 +314,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 75px;
 }
 
-.profile-img {
+.img-container {
+  position: relative;
   width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  aspect-ratio: 1;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  max-width: 500px; /* Ajuste cette valeur selon tes besoins */
+  margin: 0 auto; /* Centre l'image */
+  overflow: hidden; /* Cache les parties de l'image qui sortent de la div */
 }
 
-.profile-img:hover {
-  content: url("/assets/pdp.JPG");
+.profile-img,
+.img-overlay {
+  width: 100%;
+  height: auto; /* Maintient les proportions de l'image */
+  display: block;
+  object-fit: cover; /* Empêche l'étirement */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 50%; /* Centre verticalement */
+  left: 50%; /* Centre horizontalement */
+  transform: translate(-50%, -50%) scale(1.5); /* Réduit la taille initiale */
+  opacity: 0;
+}
+
+.img-container:hover .img-overlay {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1); /* Restaure la taille normale */
+}
+
+.img-container:hover .profile-img {
+  opacity: 0;
 }
 
 /************ Skills Css ************/
@@ -745,7 +765,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .profil .profile-img {
     width: 100%;
-    max-width: 50%;
+    max-width: 75%;
     display: block;
     margin: 10px auto;
   }
@@ -753,6 +773,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .profil .col-md-6 {
     width: 100%;
     max-width: 100%;
+  }
+
+  .img-overlay {
+    display: none;
   }
 
   .button-group {
@@ -880,8 +904,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .profil .profile-img {
-    width: 100%;
-    max-width: 50%;
+    max-width: 65%;
     display: block;
     margin: 10px auto;
   }
@@ -889,6 +912,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .profil .col-md-6 {
     width: 100%;
     max-width: 100%;
+  }
+
+  .img-overlay {
+    display: none;
   }
 
   .skill h4 {
@@ -1024,6 +1051,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 0;
   }
 
+  .img-overlay {
+    display: none;
+  }
+
   .skill h4 {
     font-size: 20px;
   }
@@ -1065,10 +1096,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .school-timeline-content p,
   .work-timeline-content p {
     font-size: 14px;
-    
   }
 
-  .school-timeline-content .cours{
+  .school-timeline-content .cours {
     color: #797979;
   }
 

@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
-import memoji from "../assets/memoji.jpeg"
+import memoji from "../assets/memoji.jpeg";
+import pdp from "../assets/pdp.jpeg";
 
 function Profil() {
   return (
@@ -9,11 +10,18 @@ function Profil() {
           <Row className="align-items-center">
             <h2>{`<A_Propos/>`}</h2>
             <Col xs={12} md={6} xl={5}>
-              <img
-                src={memoji}
-                alt="Avatar of Erika PIERRE"
-                className="profile-img"
-              />
+              <div className="img-container">
+                <img
+                  src={memoji}
+                  alt="Avatar of Erika PIERRE"
+                  className="profile-img"
+                />
+                <img
+                  src={pdp}
+                  alt="Avatar of Erika PIERRE"
+                  className="img-overlay"
+                />
+              </div>
             </Col>
             <Col xs={12} md={6} xl={7}>
               <p>

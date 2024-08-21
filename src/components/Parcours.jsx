@@ -76,7 +76,7 @@ function Parcours() {
             </em>{" "}
             Anglais intermédiaire
           </p>
-          <div>
+          <div className="cours">
             <span>Programme :</span>
             <ul>
               <li>Conversation</li>
@@ -101,7 +101,7 @@ function Parcours() {
             </em>{" "}
             Analyse de données
           </p>
-          <div>
+          <div className="cours">
             <span>Programme : </span>
             <ul>
               <li>Web Analytics</li>
@@ -131,7 +131,7 @@ function Parcours() {
             </em>{" "}
             Finance et management des entreprisess{" "}
           </p>
-          <div>
+          <div className="cours">
             <span>Programme</span>
             <li>Gestion financière avancée</li>
             <li>Veille et tendances économiques mondiales</li>
@@ -156,7 +156,7 @@ function Parcours() {
             </em>{" "}
             Gestion des Entreprises et des Administrations
           </p>
-          <div>
+          <div className="cours">
             <span>Programme : </span>
             <ul>
               <li>Aide à la décision managériale</li>
