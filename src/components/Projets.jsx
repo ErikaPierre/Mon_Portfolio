@@ -1,30 +1,32 @@
 import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import ProjetCards from "./ProjetCards";
-import projImg1 from "../assets/project-img1.png";
-import projImg2 from "../assets/project-img2.png";
+import projImg1_Cab from "../assets/cabinet.png";
+import projImg1_Cal from "../assets/calculator.png";
+import projImg1_Self from "../assets/selfcare.png";
+import projImg2 from "../assets/calculator.png";
 import projImg3 from "../assets/project-img3.png";
 
 function Projets() {
   const projects_1 = [
     {
-      title: "azerty",
-      description: "azerty",
-      imgUrl: projImg1,
+      title: "Cabinet Sage-Femme",
+      description: "WordPress",
+      imgUrl: projImg1_Cab,
     },
     {
-      title: "azerty",
-      description: "azerty",
-      imgUrl: projImg1,
+      title: "Calculatrice",
+      description: "HTML-CSS-JS",
+      imgUrl: projImg1_Cal,
     },
     {
-      title: "azerty",
-      description: "azerty",
-      imgUrl: projImg1,
+      title: "Self-Care Center",
+      description: "HTML-CSS-JS",
+      imgUrl: projImg1_Self,
     },
   ];
   const projects_2 = [
     {
-      title: "azerty",
+      title: "Self-Care Center",
       description: "azerty",
       imgUrl: projImg2,
     },
@@ -71,13 +73,13 @@ function Projets() {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab one</Nav.Link>
+                  <Nav.Link eventKey="first">Front</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab two</Nav.Link>
+                  <Nav.Link eventKey="second">Back</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab three</Nav.Link>
+                  <Nav.Link eventKey="third">Fullstack</Nav.Link>
                 </Nav.Item>
               </Nav>
 
