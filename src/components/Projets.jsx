@@ -58,18 +58,18 @@ function Projets() {
       imgUrl: projImg3_Cop,
       repoUrl: "https://github.com/ErikaPierre/CopOrPass_BACK",
     },
-    {
-      title: "Spotify",
-      description: "MERN",
-      imgUrl: projImg3_Cop,
-      repoUrl: "https://github.com/ErikaPierre/Spotify-API-back",
-    },
-    {
-      title: "azerty",
-      description: "azerty",
-      imgUrl: projImg3_Cop,
-      repoUrl: "https://sage-femme-echographiste-theo-lemouton.fr/",
-    },
+    // {
+    //   title: "Spotify",
+    //   description: "MERN",
+    //   imgUrl: projImg3_Cop,
+    //   repoUrl: "https://github.com/ErikaPierre/Spotify-API-back",
+    // },
+    // {
+    //   title: "azerty",
+    //   description: "azerty",
+    //   imgUrl: projImg3_Cop,
+    //   repoUrl: "https://sage-femme-echographiste-theo-lemouton.fr/",
+    // },
   ];
 
   return (
