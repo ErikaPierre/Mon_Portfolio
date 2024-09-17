@@ -351,7 +351,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
-  position: relative;
   background-color: #dadada81;
 }
 
@@ -372,29 +371,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .skill p {
   color: #3a3a3a;
-  font-size: 20px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 10px 0 35px 0;
+  font-size: 22px;
+  letter-spacing: 0.3px;
 }
 
 .skill li {
-  font-size: 18px;
-}
-
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
+  font-size: 20px;
 }
 
 .skills-box {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.skills-box li {
-  list-style-type: none;
+.carousel {
+  width: 60%;
+  border-radius: 1rem;
+  overflow-y: hidden;
+  overflow-x: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  border: 1px double black;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
+.carousel > div {
+  flex: 0 0 100%;
+  height: 100%;
+  scroll-snap-align: end;
+}
+
+.carousel ul {
+  padding-left: 1rem;
+}
 /************ Parcours Css ************/
 
 .career {
@@ -607,6 +617,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: auto;
 }
 
+.projet-imgBox a {
+  color: inherit;
+}
+
 .projet-imgBox::before {
   content: "";
   background: linear-gradient(90.21deg, #5aa2c6 -5.91%, #2f6abd 111.58%);
@@ -783,6 +797,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     gap: 20px;
   }
 
+  .carousel ul {
+    padding-left: 1rem;
+  }
+
   .school-timeline-content h3 {
     font-size: 18px;
   }
@@ -930,6 +948,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 12px;
   }
 
+  .carousel ul {
+    padding-left: 1rem;
+  }
+
   .button-group {
     gap: 20px;
   }
@@ -1065,6 +1087,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .skill li {
     font-size: 12px;
+  }
+
+  .carousel ul {
+    padding-left: 1rem;
   }
 
   .button-group {

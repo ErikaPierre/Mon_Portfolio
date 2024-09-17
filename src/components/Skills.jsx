@@ -1,18 +1,11 @@
 import { Col, Container, Row } from "react-bootstrap";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import { FaCode } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 
 function Skills() {
-  const responsive = {
-    allScreens: {
-      breakpoint: { max: 4000, min: 0 },
-      items: 1,
-    },
-  };
+
   return (
     <>
       <section className="skill" id="skills">
@@ -21,12 +14,8 @@ function Skills() {
             <Col>
               <h2>{`<Compétences/>`}</h2>
               <div className="skills-box">
-                <Carousel
-                  responsive={responsive}
-                  infinite={true}
-                  className="skill-slider"
-                >
-                  <div className="box skills-front">
+                <ul class="carousel">
+                  <div className="front">
                     <h4>
                       <FaCode /> Front-End
                     </h4>
@@ -45,13 +34,12 @@ function Skills() {
                       <li>Bulma</li>
                     </ul>
                   </div>
-                  <div className=" box skills-back">
+                  <div className="back">
                     <h4>
                       <FaDatabase /> Back-End
                     </h4>
                     <p>
-                      Création et gestion de bases de données, programmation{" "}
-                      <br />
+                      Création et gestion de bases de données, programmation
                       orientée objet et modèle, mise en ligne.
                     </p>
                     <ul>
@@ -62,9 +50,8 @@ function Skills() {
                       <li>MongoDB</li>
                     </ul>
                   </div>
-                  <div className=" box skills-gdp">
+                  <div className="management">
                     <h4>
-                      {" "}
                       <FaUsers /> Gestion de projet
                     </h4>
                     <p>
@@ -82,9 +69,8 @@ function Skills() {
                       <li>Versioning Git/GitHub</li>
                     </ul>
                   </div>
-                  <div className=" box skills-edt">
+                  <div className="work">
                     <h4>
-                      {" "}
                       <FaLaptopCode /> Environnement de travail
                     </h4>
                     <p>Environnement de travail et outils extérieur.</p>
@@ -106,7 +92,7 @@ function Skills() {
                       </li>
                     </ul>
                   </div>
-                </Carousel>
+                </ul>
               </div>
             </Col>
           </Row>
