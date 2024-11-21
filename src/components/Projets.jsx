@@ -4,7 +4,7 @@ import projImg1_Cab from "../assets/cabinet.png";
 import projImg1_Cal from "../assets/calculator.png";
 import projImg1_Self from "../assets/selfcare.png";
 import projImg1_Todo from "../assets/todo.png";
-import projImg1_Spot from "src/assets/spotify.png";
+import projImg1_Spot from "../assets/spotify.png";
 // import projImg2 from "../assets/calculator.png";
 import projImg3_Cop from "../assets/cop.png";
 
