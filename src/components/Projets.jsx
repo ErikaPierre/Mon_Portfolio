@@ -4,6 +4,7 @@ import projImg1_Cab from "../assets/cabinet.png";
 import projImg1_Cal from "../assets/calculator.png";
 import projImg1_Self from "../assets/selfcare.png";
 import projImg1_Todo from "../assets/todo.png";
+import projImg1_Spot from "src/assets/spotify.png";
 // import projImg2 from "../assets/calculator.png";
 import projImg3_Cop from "../assets/cop.png";
 
@@ -33,7 +34,14 @@ function Projets() {
       imgUrl: projImg1_Todo,
       repoUrl: "https://github.com/ErikaPierre/ToDoList_JS",
     },
+    {
+      title: "Maquette spotify",
+      description: "HTML-CSS-JS + TailwindJs",
+      imgUrl: projImg1_Spot,
+      repoUrl: "https://github.com/ErikaPierre/Spotify-MERN-Front",
+    },
   ];
+
   // const projects_2 = [
   //   {
   //     title: "Self-Care Center",
@@ -51,6 +59,7 @@ function Projets() {
   //     imgUrl: projImg2,
   //   },
   // ];
+
   const projects_3 = [
     {
       title: "CopOrPass",
